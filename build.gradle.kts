@@ -13,7 +13,15 @@ plugins {
     id("org.sonarqube") version "2.8"
     id("com.diffplug.gradle.spotless") version "3.30.0"
     id("com.github.hierynomus.license") version "0.15.0"
+    id("org.asarkar.gradle.build-time-tracker") version "2.0.0" 
 }
+
+/*configure<BuildTimeTrackerPluginExtension> {
+    sort = true
+    output = CONSOLE
+    maxWidth = 80
+    minTaskDuration = Duration.ofSeconds(1)
+}*/
 
 
 group = "de.fraunhofer.aisec"
