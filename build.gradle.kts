@@ -16,7 +16,6 @@ plugins {
     id("org.asarkar.gradle.build-time-tracker") version "2.0.0"
 }
 
-
 group = "de.fraunhofer.aisec"
 
 /* License plugin needs a special treatment, as long as the main project does not have a license yet.
